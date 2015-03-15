@@ -309,7 +309,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #featured h3 {font-size: 1.429em; margin-bottom: .5em;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
-#featured h3 a:hover, #featured h3 a:active {color: #fff;}
+#featured h3 a:hover, #featured h3 a:active {color: #000305; text-decoration: underline;}
 
 /*
 	Body
