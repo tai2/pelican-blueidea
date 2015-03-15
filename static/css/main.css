@@ -20,7 +20,7 @@
 body {
     background: #f2f3f3;
     color: #000305;
-    font-size: 87.5%; /* Base font size: 14px */
+    font-size: 100%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.429;
     margin: 0;
@@ -44,6 +44,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
+
+p {
+    line-height: 1.6;
+}
+
+ol.simple-footnotes {
+    font-size: 85%;
+}
+
+sup { font-size: 80%; }
 	
 hr { border: 2px solid #EEEEEE; }
 
@@ -78,7 +88,7 @@ ol {
 	margin: 0em 0 0 1.5em;
 }
 
-li { margin-top: 0.5em;}
+li { margin-top: 0.1em;}
 
 .post-info {
 	border-top: 1px solid;
