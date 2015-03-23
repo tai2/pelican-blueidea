@@ -41,6 +41,7 @@
                     <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
                 {% endif %}
+                    <li{% if output_file == 'archives.html' %} class="active"{% endif %}><a href="{{ SITEURL }}/archives.html">Archive</a></li>
                 </ul>
                 {% if DISPLAY_SEARCH_FORM -%}
                     <form id="search" action"#" onsubmit="javascript:window.open('https://duckduckgo.com/?q='+document.getElementById('keywords').value+'+site:{{ SITEURL }}');">
