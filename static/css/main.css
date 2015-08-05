@@ -149,6 +149,14 @@ aside, nav, article, figure {
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
+div.figure {
+    text-align: center;
+}
+
+.caption {
+    margin-top: 0;
+}
+
 /*
 	Header
 *****************/
