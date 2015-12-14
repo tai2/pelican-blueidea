@@ -133,7 +133,7 @@ div.note {
 }
 
 /* Tables */
-table {margin: .5em auto 1.5em auto; width: 98%;}
+table {margin: .5em auto 1.5em 1.5em; width: 70%;}
 	
 	/* Thead */
 	thead th {padding: .5em .4em; text-align: left;}
@@ -149,6 +149,10 @@ table {margin: .5em auto 1.5em auto; width: 98%;}
 	/* Tfoot */
 	tfoot th {}
 	tfoot td {}
+
+table, tr, td, th {
+    border: 1px solid black;
+}
 	
 /* HTML5 tags */
 header, section, footer,
